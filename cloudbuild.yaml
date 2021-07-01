@@ -4,8 +4,8 @@ args:
 - despliegue 
 - - tiempo de ejecución = nodejs12 
 - - trigger-http 
-- - source =. / # Archivos fuente de función 
-- - entry-point = helloCiCd # Entrada de función point 
-- helloCiCd # Nombre de la función 
+- - source =index.js/ # Archivos fuente de función 
+- - entry-point = helloGET # Entrada de función point 
+- helloGET # Nombre de la función 
 waitFor: ['_'] 
 id: 'deploying-a-serverless-function'
