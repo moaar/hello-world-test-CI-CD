@@ -2,7 +2,7 @@
 args: 
 - funciones 
 - despliegue 
-- - tiempo de ejecución = nodejs8 
+- - tiempo de ejecución = nodejs12 
 - - trigger-http 
 - - source =. / # Archivos fuente de función 
 - - entry-point = helloCiCd # Entrada de función point 
