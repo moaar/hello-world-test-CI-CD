@@ -1,11 +1,11 @@
-- nombre: 'gcr.io/cloud-builders/gcloud' 
-args: 
-- funciones 
-- despliegue 
-- - tiempo de ejecución = nodejs12 
-- - trigger-http 
-- - source =index.js/ # Archivos fuente de función 
-- - entry-point = helloGET # Entrada de función point 
-- helloGET # Nombre de la función 
-waitFor: ['_'] 
-id: 'deploying-a-serverless-function'
+- name: 'gcr.io/cloud-builders/gcloud'
+ args:
+ — functions
+ — deploy
+ — — runtime=nodejs8
+ — — trigger-http
+ — — source=./ # Function source files
+ — — entry-point=helloCiCd # Function entry point
+ — helloCiCd # Function name
+ waitFor: ['_']
+ id: 'deploying-a-serverless-function'
