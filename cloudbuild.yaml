@@ -1,4 +1,4 @@
-- nombre: 'gcr.io/cloud-builders/gcloud' 
+nombre: 'gcr.io/cloud-builders/gcloud' 
 args: 
 - funciones 
 - despliegue 
