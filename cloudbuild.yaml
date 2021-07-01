@@ -1,0 +1,11 @@
+- nombre: 'gcr.io/cloud-builders/gcloud' 
+args: 
+- funciones 
+- despliegue 
+- - tiempo de ejecución = nodejs8 
+- - trigger-http 
+- - source =. / # Archivos fuente de función 
+- - entry-point = helloCiCd # Entrada de función point 
+- helloCiCd # Nombre de la función 
+waitFor: ['_'] 
+id: 'deploying-a-serverless-function'
