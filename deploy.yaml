@@ -5,7 +5,7 @@ steps:
   - functions
   - deploy
   - --trigger-http
-  - --runtime= node12
-  - --source=.
+  - --runtime=node12
+  - --source=.js
   - --entry-point=f
   - hello-gcf # Function name
