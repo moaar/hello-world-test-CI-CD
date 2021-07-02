@@ -6,6 +6,6 @@ steps:
   - deploy
   - --trigger-http
   - --runtime=node12
-  - --source=index.js
+  - --source=.
   - --entry-point=f
   - hello-gcf # Function name
