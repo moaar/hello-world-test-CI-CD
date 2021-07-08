@@ -1,4 +1,4 @@
 exports.f = function(req, res) {
-  console.log("Hello to all world, and test trigger 1");
+  console.log("Hello to all world");
   res.send("hello, gcf!");
 };
